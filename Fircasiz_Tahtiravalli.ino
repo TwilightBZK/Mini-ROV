@@ -128,3 +128,4 @@ void loop() {
   sagMotor.writeMicroseconds(pwmSag); // Sağ motor için PWM sinyalini gönder
 
   onceki_hata = hata; // Önceki hatayı güncelle; bir sonraki döngüde kullanılacak
+}
